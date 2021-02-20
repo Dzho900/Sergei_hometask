@@ -1,0 +1,68 @@
+h1 {
+    font-size: 30px;
+    text-align: right;
+    color: orange;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+em {
+    background-color: forestgreen;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: blue;
+}
+
+h2:first-of-type {
+    color: orange;
+}
+
+span {
+    font-weight: bold;
+}
+
+ol > li {
+    color: red;
+}
+
+ul:first-of-type li:first-child li {
+    color: gray;
+}
+
+ul:last-of-type li:first-child li {
+    color: green;
+}
+
+table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    padding: 0 25px;
+}
+
+tr:nth-child(n+3) td:first-child {
+    color: orange;
+    text-align: left;
+    padding: 0;
+}
+
+tr:nth-child(n+3) td:nth-child(n+2) {
+    background-color: green;
+    color: white;
+}
+
+.container {
+    padding: 0 34%;
+}
