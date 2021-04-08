@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    function pow(x, n) {
+        var result = x;
+
+        for (var i = 1; i < n; i++) {
+            result *= x;
+        }
+        return result;
+    }
+
+    var x = parseInt(prompt('Какое число вы хотите возвести в степень ?', ' '));
+    var n = parseInt(prompt('В какую степень вы хотите возвести число ?', ' '));
+
+    alert('Ответ: ' + pow(x, n));
+
+</script>
+
+</body>
+</html>
